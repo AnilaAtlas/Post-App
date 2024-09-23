@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Post App</h1>
+    <div class="main">
+        <div id="container">
+            <form id="sign-up-form">
+                <h2>Sign Up</h2>
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button id="sign-up-btn">Sign Up</button>
+            </form>
+            <form id="log-in-form">
+                <h2>Log In</h2>
+                <input type="text" id="log-in-username" placeholder="Username">
+                <input type="password" id="log-in-password" placeholder="Password">
+                <button id="log-in-btn">Log In</button>
+            </form>
+        </div>
+        <div id="post-container" style="display: none;">
+            <form id="post-form">
+                <input type="text" id="title" placeholder="Title">
+                <textarea id="content" placeholder="Content"></textarea>
+                <button id="submit-btn">Submit</button>
+            </form>
+            <div id="posts-container"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

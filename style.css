@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(60, 99, 99);
+}
+
+h1{
+    text-align: center;
+    color: #efefef;
+}
+h2{
+    color: #efefef;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#auth-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #efefef;
+}
+
+#sign-up-form, #log-in-form {
+    display: none;
+}
+
+#sign-up-form.show, #log-in-form.show {
+    display: block;
+}
+
+#password{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size:large;
+}
+
+#username{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px; 
+    font-size:large;
+}
+
+#sign-up-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px; 
+    font-size:large;
+}
+
+#sign-up-btn:hover{
+background-color: #ccc;
+cursor: pointer;
+}
+
+#log-in-username{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px; 
+    font-size:large; 
+}
+
+#log-in-password{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px; 
+    font-size:large; 
+}
+
+#log-in-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px; 
+    font-size:large;
+}
+
+#log-in-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    }
+
+#post-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ece6e6;
+}
+
+#post-form input, #post-form textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#post-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#post-form button:hover {
+    background-color: #3e8e41;
+}
+
+#posts-container {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.post {
+    background-color: #9ec7c4;
+    padding: 20px;
+    border-bottom: 1px solid #abd0d1;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+#title{
+border-radius: 7px;
+}
+
+#content{
+border-radius: 7px;
+}
+
+.edit-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(46, 81, 158);
+    color: #efefef;
+}
+.delete-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(214, 29, 29);
+    color: #efefef; 
+}
+.edit-btn:hover{
+ background-color: rgb(27, 52, 99);   
+ cursor:pointer;
+}
+.delete-btn:hover{
+    background-color: rgb(170, 64, 64);   
+    cursor:pointer;
+   }
